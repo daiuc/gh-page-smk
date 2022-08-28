@@ -1,0 +1,6 @@
+# output-dir: ../_site
+format:
+  html:
+    theme: readable
+    css: styles.css
+    toc: true
