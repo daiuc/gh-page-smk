@@ -1,7 +1,13 @@
 ---
-title: "gh-page-smk"
+title: "Home"
 ---
 
-This is a Quarto website.
+### Publish to github page
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+- source `qmd` files in `analysis`
+- `render` will transfer html files automatically to `docs`
+- use `*.qmd`, not html files when linking pages to ensure automatic conversion to both html and pdf
+
+### Snakemake
+
+- all snakemake related pipeline scripts and data/results are under `code`
