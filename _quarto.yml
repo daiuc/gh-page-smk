@@ -9,11 +9,15 @@ website:
     left: 
       - href: index.qmd
         text: Home
+      - href: analysis/index.qmd
+        text: Analysis
       - about.qmd
+      # - menu:
+      #   - href: analysis/analysis1.qmd
+      #     text: analysis
 
 format:
   html:
     theme: Simplex
     css: styles.css
     toc: true
-

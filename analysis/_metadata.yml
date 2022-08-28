@@ -1,6 +1,8 @@
-# output-dir: ../_site
+execute:
+  freeze: auto # re-render only when source changes
+
 format:
   html:
-    theme: readable
+    theme: united
     css: styles.css
     toc: true

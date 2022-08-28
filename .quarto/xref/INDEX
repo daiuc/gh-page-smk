@@ -10,5 +10,11 @@
   },
   "analysis/index.qmd": {
     "index.html": "33dc2af4"
+  },
+  "analysis/analysis1.qmd": {
+    "analysis1.html": "ac7143eb"
+  },
+  "analysis/analysis2.qmd": {
+    "analysis2.html": "2c28c094"
   }
 }

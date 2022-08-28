@@ -1,0 +1,16 @@
+{
+  "hash": "e868a4e4cf04da1e834bc210d1fdcef1",
+  "result": {
+    "markdown": "---\ntitle: \"Analysis 2\"\nauthor: \"Chao Dai\"\ndate: \"2022-08-27\"\nformat: html\ncode-fold: true\n---\n\n\n\nToday's date is  2022-08-27\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\ndata(\"population\")\n```\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nfilter(population, country %in% c(\"China\", \"India\", \"Great Britain\", \"United States of America\")) %>% \n  ggplot() + geom_line(aes(year, population, group = country, color = country)) + \n    scale_y_log10(labels = scales::number_format(scale = 1e-6, suffix = \"M\"))\n```\n\n::: {.cell-output-display}\n![](analysis2_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "analysis2_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
