@@ -3,6 +3,4 @@ execute:
 
 format:
   html:
-    theme: united
-    css: styles.css
     toc: true

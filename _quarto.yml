@@ -18,6 +18,5 @@ website:
 
 format:
   html:
-    theme: Simplex
+    theme: yeti
     css: styles.css
-    toc: true
