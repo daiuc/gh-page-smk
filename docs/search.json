@@ -14,13 +14,6 @@
     "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\nCode\n1 + 5\n\n\n[1] 6\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
   },
   {
-    "objectID": "analysis/analysis2.html",
-    "href": "analysis/analysis2.html",
-    "title": "Analysis 2",
-    "section": "",
-    "text": "Code\ndata(\"population\")\n\n\n\n\nCode\nfilter(population, country %in% c(\"China\", \"India\", \"Great Britain\", \"United States of America\")) %>% \n  ggplot() + geom_line(aes(year, population, group = country, color = country)) + \n    scale_y_log10(labels = scales::number_format(scale = 1e-6, suffix = \"M\"))"
-  },
-  {
     "objectID": "analysis/index.html",
     "href": "analysis/index.html",
     "title": "gh-page-smk",
@@ -40,12 +33,5 @@
     "title": "Home",
     "section": "",
     "text": "Snakemake\n\nall snakemake related pipeline scripts and data/results are under code"
-  },
-  {
-    "objectID": "analysis/analysis1.html#running-inline-code",
-    "href": "analysis/analysis1.html#running-inline-code",
-    "title": "analysis1",
-    "section": "Running inline code",
-    "text": "Running inline code\nRun inline code like so:\n```{r}\n2022-08-28\n```"
   }
 ]

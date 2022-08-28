@@ -1,5 +1,7 @@
 ---
 title: "Home"
+execute:
+  freeze: auto # re-render only when source changes
 ---
 
 ### Publish to github page

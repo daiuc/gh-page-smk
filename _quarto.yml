@@ -15,7 +15,6 @@ website:
       # - menu:
       #   - href: analysis/analysis1.qmd
       #     text: analysis
-
 format:
   html:
     theme: sandstone
